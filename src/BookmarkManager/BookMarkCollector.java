@@ -32,13 +32,10 @@ public class BookMarkCollector {
 
     public void BookMarkCollector(URL serverUrl){
         //1.check the 302 redirection
-        String url = serverUrl.toString();
-//        System.out.println("Access Address:" + url);
         Pair pair = new Pair();
-
         try {
-            pair.serverUrl = new URL(url);
-            pair.actualLocation = new URL(url);     // use host names of actual location as keys, and use original urls as values
+            pair.serverUrl = serverUrl;
+            pair.actualLocation = serverUrl;     // use host names of actual location as keys, and use original urls as values
             HttpURLConnection conn = (HttpURLConnection) serverUrl.openConnection();
             conn.setRequestMethod("GET");
             conn.setInstanceFollowRedirects(false);
@@ -63,7 +60,7 @@ public class BookMarkCollector {
             bookmarkGroups.get(pair.actualLocation.getHost()).add(pair);
         }
         else{
-            PriorityQueue<Pair> pq = new PriorityQueue<>(11,new MyComparator());
+            PriorityQueue<Pair> pq = new PriorityQueue<>(new MyComparator());
             pq.add(pair);
             bookmarkGroups.put(pair.actualLocation.getHost(),pq);
         }
