@@ -12,9 +12,9 @@ Bookmarks are stored in text files, each of which takes up one line.  No space i
 
 The output which is the organized collection of the bookmarks is also stored in a text file.
 
-###3. Implementation 
+### 3. Implementation 
 
-#####(1) Read file and de-duplicate
+##### (1) Read file and de-duplicate
 
 Create a `HashMap<String, URL>` where the key is url of the bookmark and URL is its instance, and read the urls as `String` from each browser, iterating through to de-duplicate all bookmarks.
 
