@@ -1,0 +1,34 @@
+----------Group 0 : stackoverflow.com -------------- 
+https://stackoverflow.com/
+https://stackoverflow.com/questions/
+----------Group 1 : docs.google.com -------------- 
+https://docs.google.com/document/u/0/
+https://docs.google.com/document/d/12qiFCdVXyBk-kWaZr1G8hrQZuUkbjkr6Fthote3LyAY/edit#
+http://docs.google.com/document/
+----------Group 2 : news.google.com -------------- 
+https://news.google.com/news/
+https://www.google.com/news/
+----------Group 3 : apps.uillinois.edu -------------- 
+https://apps.uillinois.edu/BANPROD1/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu&msg=WELCOME+%3Cb%3EWelcome,+Haoran+Qi,+to+UI-Integrate+Self-Service!%3C%2Fb%3EMar+13,+201802%3A17+pm
+http://apps.uillinois.edu/selfservice/
+----------Group 4 : www.sap.com -------------- 
+https://www.sap.com
+https://www.sap.com/index.html
+http://www.sap.com/
+----------Group 5 : www.concur.com -------------- 
+https://www.concur.com/
+----------Group 6 : github.com -------------- 
+https://github.com/
+----------Group 7 : mail.google.com -------------- 
+https://mail.google.com/
+https://mail.google.com/mail/u/0/#inbox
+----------Group 8 : docs.oracle.com -------------- 
+https://docs.oracle.com/javase/7/docs/api/
+----------Group 9 : www.youtube.com -------------- 
+https://www.youtube.com/
+https://www.youtube.com/watch?v=QwievZ1Tx-8
+----------Group 10 : overview.mail.yahoo.com -------------- 
+https://mail.yahoo.com
+----------Group 11 : mail.qq.com -------------- 
+https://mail.qq.com/
+https://mail.qq.com/cgi-bin/frame_html?sid=Rpx5Tr7YxmHVVGI4&r=b5af89689a3f11336b0c2e36a8a807d7
